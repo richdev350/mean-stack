@@ -1,4 +1,4 @@
-MEAN Stack Relational ![Mean Stack Build Status](https://travis-ci.org/jpotts18/mean-stack-relational.png)
+
 =====================
 
 ### Please use for reference only! No support or updates planned.
@@ -54,11 +54,11 @@ Thats all! Now go and open up your browser at [http://localhost:3000](http://loc
 ### Javascript Tools Used
 - [Grunt](http://gruntjs.com/) - In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you've configured it, a Grunt can do most of that mundane work for you—and your team—with basically zero effort.
 
-  1. It [watches](https://github.com/jpotts18/mean-stack-relational/blob/master/gruntfile.js#L5) your filesystem and when it detects a change it will livereload your changes. 
+  1. It [watches](https://github.com/olaf1005/mean-stack/blob/master/gruntfile.js#L5) your filesystem and when it detects a change it will livereload your changes. 
 
-  2. It runs [jshint](https://github.com/jpotts18/mean-stack-relational/blob/master/gruntfile.js#L32) which looks through your javascript files and ensures coding standards.
+  2. It runs [jshint](https://github.com/olaf1005/mean-stack/blob/master/gruntfile.js#L32) which looks through your javascript files and ensures coding standards.
 
-  3. It runs [nodemon](https://github.com/jpotts18/mean-stack-relational/blob/master/gruntfile.js#L35) which watches changes in specific folders and recompiles the app when necessary. No running ```node app.js``` every 2 minutes. 
+  3. It runs [nodemon](https://github.com/olaf/mean-stack/blob/master/gruntfile.js#L35) which watches changes in specific folders and recompiles the app when necessary. No running ```node app.js``` every 2 minutes. 
 
   4. It can also run tests like mocha and karma for you.
 
@@ -83,7 +83,3 @@ Following is a list of items detailing future direction for MEAN Stack Relationa
 - Demonstrating modularity by using javascript classes for complex backend functionality
 - Yeoman generator to compete with MEAN
 
-
-# Troubleshooting and Contact
-
-During install some of you may encounter some issues feel free to contact me (jpotts18) or the co-contributor (chaudhryjunaid), via the repository issue tracker or the links provided below. I am also available on twitter at [@jpotts18](http://twitter.com/jpotts18) and Junaid at [@chjunaidanwar](http://twitter.com/chjunaidanwar).
